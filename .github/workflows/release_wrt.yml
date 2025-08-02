@@ -34,7 +34,7 @@ on:
           - ubuntu-24.04
 
 env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.TH_TOKEN }}
 
 jobs:
   build:
